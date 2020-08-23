@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+/*start Header*/
+header {
+  background-image: url("../img/drew-coffman-1872.jpg");
+  height: 45vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center bottom;
+  font-family: "Roboto", sans-serif;
+  position: relative;
+}
+header .overLay {
+  position: absolute;
+  background-color: rgba(82, 82, 82, 0.233);
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+header nav {
+  height: 13vh;
+  width: 100%;
+  background-color: rgba(82, 82, 82, 0.233);
+  position: fixed;
+  z-index: 9999;
+}
+header nav .container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav .container ul {
+  display: flex;
+  list-style: none;
+  font-size: 20px;
+}
+header nav .container ul li {
+  padding-left: 30px;
+}
+header nav .container ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+header nav .container img {
+  width: 200px;
+  height: 60px;
+}
+header .contentH {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  text-align: center;
+  height: 100%;
+  color: #ffffff;
+  position: relative;
+  z-index: 1;
+}
+header .contentH p {
+  font-size: 22px;
+  padding-bottom: 30px;
+}
+header .contentH h3 {
+  font-size: 50px;
+  line-height: 45px;
+  margin-bottom: 20px;
+  font-family: "Recursive", sans-serif;
+}
+/*end Header*/
+/*start Gallery*/
+.Gallery {
+  padding: 5% 0;
+  font-family: "Roboto", sans-serif;
+}
+.Gallery .container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.Gallery .contaireGalA {
+  width: 65%;
+}
+.Gallery .contaireGalA form .headForm {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.Gallery .contaireGalB {
+  width: 35%;
+  padding-left: 70px;
+}
+.Gallery .contaireGalB h2 {
+  margin-bottom: 20px;
+}
+.Gallery .contaireGalB p {
+  line-height: 1.86em;
+  font-size: 17px;
+  color: #686868;
+  margin-bottom: 30px;
+}
+.Gallery .contaireGalB div {
+  width: 374px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.Gallery .contaireGalB div span img {
+  height: 25px;
+  width: 25px;
+}
+.Gallery .contaireGalB span {
+  border: 1px solid #686868;
+  border-radius: 50%;
+  height: 45px;
+  width: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.Gallery .contaireGalB ul {
+  list-style: none;
+  color: #686868;
+  font-size: 17px;
+}
+.Gallery .contaireGalB ul li {
+  padding: 8px;
+  padding-left: 0;
+}
+
+.Gallery .contaireGalA form .headForm input[type="text"] {
+  width: 48%;
+}
+.Gallery .contaireGalA form input[type="text"] {
+  width: 100%;
+  height: 50px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #c9c9c9;
+}
+.Gallery .contaireGalA form textarea {
+  width: 100%;
+  height: 300px;
+  padding: 10px 0 0 10px;
+  border: 1px solid #c9c9c9;
+  resize: none;
+}
+.Gallery .contaireGalA form button {
+  background-color: #8e7754;
+  border: none;
+  padding: 18px 22px;
+  color: #ffffff;
+  font-weight: 700;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.Gallery .contaireGalA h2 {
+  margin-bottom: 20px;
+}
+/*end Gallery*/
+/*start Iframe*/
+iframe {
+  width: 100%;
+  height: 450px;
+}
+/*end Iframe*/
+/*start footerA*/
+.footerA {
+  background-color: #403d38;
+  padding: 5% 0;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  margin-top: -4px;
+}
+.footerA .container {
+  display: flex;
+  justify-content: center;
+}
+.footerA .cartFooter {
+  width: 27%;
+  padding: 20px;
+}
+.footerA .cartFooter h3 {
+  margin-bottom: 20px;
+}
+.footerA .cartFooter p {
+  color: #969696;
+  line-height: 1.7em;
+  margin-bottom: 20px;
+}
+.footerA .container ul {
+  list-style: none;
+  color: #969696;
+}
+.footerA .container ul li {
+  padding: 15px;
+  padding-left: 0;
+  border-bottom: 1px solid #96969649;
+}
+.footerA .container ul li a {
+  text-decoration: none;
+  color: #969696;
+}
+/*end footerA*/
+/*start footerB*/
+.footerB {
+  background-color: #353330;
+  padding: 5% 0;
+  font-family: "Roboto", sans-serif;
+  color: #969696;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footerB p {
+  margin-top: 20px;
+}
+/*end footerB*/
